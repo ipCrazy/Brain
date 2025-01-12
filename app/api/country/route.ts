@@ -9,6 +9,7 @@ const CountrySchema = z.object({
   capital: z.string(),
   population: z.number(),
   flagColor: z.string(),
+  neighboringCountries: z.array(z.string()),
 });
 
 export async function POST(req: NextRequest) {

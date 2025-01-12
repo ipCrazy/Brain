@@ -56,6 +56,7 @@ const CountryPage: React.FC = () => {
           <p><strong>Capital:</strong> {result.capital}</p>
           <p><strong>Population:</strong> {result.population}</p>
           <p><strong>Flag Colors:</strong> {result.flagColor}</p>
+          <p><strong>neighboringContries:</strong> {result.neighboringCountries}</p>
         </div>
       )}
     </div>
